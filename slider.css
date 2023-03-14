@@ -1,0 +1,35 @@
+.slider {
+	-webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: .5em;
+    outline: none;
+    border-radius: 3px;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+    appearance: none;
+    width: 1.5em;
+   	height: 1.5em;
+    background: #fff;
+    box-shadow: 1px 1px 3px #1a1a1a;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#toolset {
+	display: none;
+}
+
+range {
+	color: #fff;
+}
+
+body {
+  	min-height: 100vh;
+  	padding: 0;
+	background-color: #000;
+	color: #fff;
+}
